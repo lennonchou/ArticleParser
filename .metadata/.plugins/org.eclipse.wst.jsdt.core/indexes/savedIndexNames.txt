@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+H:\zhou\ArticalParser\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+855162373.index
+3051255496.index
+34259942.index
+1713707086.index
+1028778208.index
+230678794.index

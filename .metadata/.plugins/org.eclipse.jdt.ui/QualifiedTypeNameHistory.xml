@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.json.JSONException"/>
+<fullyQualifiedTypeName name="aylien.AylienAPI"/>
+<fullyQualifiedTypeName name="aylien.AylienUtil"/>
+<fullyQualifiedTypeName name="com.aylien.textapi.parameters.ExtractParams"/>
+<fullyQualifiedTypeName name="com.aylien.textapi.parameters.SummarizeParams"/>
+<fullyQualifiedTypeName name="com.aylien.textapi.TextAPIClient"/>
+<fullyQualifiedTypeName name="com.aylien.textapi.responses.Article"/>
+<fullyQualifiedTypeName name="org.json.JSONObject"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="com.aylien.textapi.responses.Summarize"/>
+<fullyQualifiedTypeName name="aylien.AylienConnection"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,31 @@
+package aylien;
+
+import com.aylien.textapi.TextAPIClient;
+import com.aylien.textapi.parameters.*;
+import com.aylien.textapi.responses.*;
+import java.net.URL;
+
+public class AylienAPI {
+	private static final String API_ID = "2065fd7a";
+	private static final String API_KEY = "82ef4d021da070fe55e91fecc74e928c";
+	
+	TextAPIClient client;
+	
+	public AylienAPI() {
+		this.client = new TextAPIClient("2065fd7a", "82ef4d021da070fe55e91fecc74e928c");
+	}
+	
+	public static void main(String[] args) throws Exception {
+		AylienAPI api = new AylienAPI();
+	    ConceptsParams.Builder builder = ConceptsParams.newBuilder();
+	    builder.setUrl(new URL("http://www.bbc.com/news/science-environment-30097648"));
+	    Concepts concepts = api.client.concepts(builder.build());
+	    System.out.println(concepts.getText());
+	    for (Concept c: concepts.getConcepts()) {
+	      System.out.println(c.getUri());
+	      for (SurfaceForm sf: c.getSurfaceForms()) {
+	        System.out.println(sf.getString());
+	      }
+	    }
+	  }
+}
