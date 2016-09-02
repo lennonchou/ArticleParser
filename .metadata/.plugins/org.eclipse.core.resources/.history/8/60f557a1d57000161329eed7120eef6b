@@ -41,7 +41,7 @@ public class AylienConnection {
 		obj.put("Date", article.getPublishDate());
 	}
 	public void writeSummary(Summarize summary, JSONObject obj) throws JSONException {
-		obj.put("Description_and_Summary", summary.getSentences());
+		obj.put("Description and Summary", summary.getSentences());
 	}
 	public void writeTo(URL url) {
 		

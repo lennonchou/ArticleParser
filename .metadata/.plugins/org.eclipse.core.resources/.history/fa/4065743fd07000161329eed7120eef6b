@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <div class="ten wide column field">
+                <textarea style="height: 75px; min-height: initial !important;" class="text-input" placeholder="Enter a text or URL to start..."></textarea>
+
+                <div class="ui basic segment field" style="padding-left: 0;padding-right: 0;margin-bottom: 0;">
+                	<label>
+                    	<i class="icon flag outline"></i> Language:
+  					</label>
+
+                  <select class="language-select ui dropdown ">
+                      
+                  
+                        <option value="en" selected="">English</option>
+                        <option value="auto">Auto</option>
+                        <option value="es">Spanish</option>
+                        <option value="pt">Portuguese</option>
+                        <option value="de">German</option>
+                        <option value="fr">French</option>
+                        <option value="it">Italian</option>
+                      
+                      
+                      
+                  </select>
+                </div>
+
+                
+                	<div class="ui basic segment field" style="padding-left: 0;padding-right: 0;padding-top: 0;">
+                    	<label>
+                    		<i class="icon list"></i> Summary length (number of sentences):
+  						</label>
+                    	<select class="ui dropdown summary-length">
+                   	    	<option val="1">1</option>
+                            <option val="2">1</option>
+                        	<option val="3" selected="">3</option>
+                        	<option val="4">4</option>
+                        	<option val="5">5</option>
+                        	<option val="6">6</option>
+                        	<option val="7">7</option>
+                        	<option val="8">8</option>
+                        	<option val="9">9</option>
+                        	<option val="10">10</option>
+                    	</select>
+                    </div>
+            </div>
+  <div id="result"></div>
+</body>
+</html>
